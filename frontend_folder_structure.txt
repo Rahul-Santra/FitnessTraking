@@ -1,0 +1,82 @@
+frontend/
+│
+├── app/
+│   ├── layout.js
+│   ├── globals.css
+│   ├── page.js
+│   │
+│   ├── auth/
+│   │   ├── login/page.js
+│   │   ├── signup/page.js
+│   │   └── onboarding/page.js
+│   │
+│   ├── dashboard/page.js
+│   ├── workouts/page.js
+│   ├── cycle/page.js
+│   └── settings/page.js
+│
+├── components/
+│   │
+│   ├── layout/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── dashboard/
+│   │   ├── StatsCards.jsx
+│   │   ├── ProgressCharts.jsx
+│   │   ├── WorkoutSummary.jsx
+│   │   └── CycleInsights.jsx
+│   │
+│   ├── workout/
+│   │   ├── WorkoutCard.jsx
+│   │   ├── WorkoutPlan.jsx
+│   │   └── WorkoutHistory.jsx
+│   │
+│   ├── cycle/
+│   │   ├── CycleCalendar.jsx
+│   │   ├── PhaseIndicator.jsx
+│   │   └── PredictionCard.jsx
+│   │
+│   ├── forms/
+│   │   ├── LoginForm.jsx
+│   │   ├── SignupForm.jsx
+│   │   ├── OnboardingForm.jsx
+│   │   └── DailyLogForm.jsx
+│   │
+│   └── ui/
+│       ├── Button.jsx
+│       ├── Input.jsx
+│       ├── Card.jsx
+│       ├── Modal.jsx
+│       └── Loader.jsx
+│
+├── services/
+│   ├── api.js
+│   ├── auth.service.js
+│   ├── workout.service.js
+│   ├── cycle.service.js
+│   └── dashboard.service.js
+│
+├── hooks/
+│   ├── useAuth.js
+│   ├── useWorkout.js
+│   └── useDashboard.js
+│
+├── context/
+│   └── AuthContext.jsx
+│
+├── lib/
+│   ├── axios.js
+│   ├── utils.js
+│   └── constants.js
+│
+├── public/
+│   ├── images/
+│   └── icons/
+│
+├── middleware.js
+├── tailwind.config.js
+├── next.config.js
+├── package.json
+└── .env.local

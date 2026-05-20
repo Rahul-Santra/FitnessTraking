@@ -1,0 +1,77 @@
+backend/
+│
+├── src/
+│   │
+│   ├── config/
+│   │   ├── db.js
+│   │   ├── env.js
+│   │   └── constants.js
+│   │
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── profile.controller.js
+│   │   ├── workout.controller.js
+│   │   ├── cycle.controller.js
+│   │   ├── dashboard.controller.js
+│   │   └── logs.controller.js
+│   │
+│   ├── services/
+│   │   ├── auth.service.js
+│   │   ├── profile.service.js
+│   │   ├── workout.service.js
+│   │   ├── cycle.service.js
+│   │   ├── dashboard.service.js
+│   │   ├── logs.service.js
+│   │   │
+│   │   └── decisionEngine/
+│   │       ├── phaseDetector.js
+│   │       ├── intensityMapper.js
+│   │       ├── workoutSelector.js
+│   │       └── workoutGenerator.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   ├── profile.routes.js
+│   │   ├── workout.routes.js
+│   │   ├── cycle.routes.js
+│   │   ├── dashboard.routes.js
+│   │   └── logs.routes.js
+│   │
+│   ├── middlewares/
+│   │   ├── auth.middleware.js
+│   │   ├── error.middleware.js
+│   │   └── validate.middleware.js
+│   │
+│   ├── models/
+│   │   ├── user.model.js
+│   │   ├── profile.model.js
+│   │   ├── cycle.model.js
+│   │   ├── workout.model.js
+│   │   ├── workoutLog.model.js
+│   │   └── dailyLog.model.js
+│   │
+│   ├── validators/
+│   │   ├── auth.validator.js
+│   │   ├── profile.validator.js
+│   │   └── workout.validator.js
+│   │
+│   ├── utils/
+│   │   ├── jwt.js
+│   │   ├── hash.js
+│   │   ├── response.js
+│   │   └── date.js
+│   │
+│   ├── database/
+│   │   ├── schema.sql
+│   │   ├── seed.sql
+│   │   └── migrations/
+│   │
+│   ├── app.js
+│   └── server.js
+│
+├── tests/
+│
+├── .env
+├── .env.example
+├── package.json
+└── nodemon.json
